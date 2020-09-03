@@ -1,0 +1,16 @@
+body {
+  background-color: rgb(252, 103, 103);
+}
+  
+h1 {
+  color: navy;
+  margin-left: 20px;
+}
+
+.ssio {
+  font-size: 100px;
+}
+
+#peterle {
+  background-color: red;
+}
