@@ -1,16 +1,31 @@
+@font-face {
+  font-family: peter1;
+  src: url(Comfortaa-Medium.ttf);
+}
+
+
 body {
-  background-color: rgb(252, 103, 103);
+  background: rgba(250, 198, 164,0.7) /*url(images/Download.jpg)*/ no-repeat right top;
 }
+
+.ueberschrift {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+h3 {
   
-h1 {
-  color: navy;
-  margin-left: 20px;
+  font-family: peter1;
+  font-size: 150px;
+  color: black;
 }
 
-.ssio {
-  font-size: 100px;
+p {
+  font-family: peter1;
+  font-size: 25px;
 }
 
-#peterle {
-  background-color: red;
+.bild{
+  text-align: center;
 }
